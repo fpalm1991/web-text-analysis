@@ -23,9 +23,10 @@ def get_urls(path):
 def get_text_from_urls(urls: list) -> dict:
     """
         Collect text in 
-            1) <title 
-            2) <h1>...<h6> 
-            3) <p>
+            1) <title
+            2) meta description
+            3) <h1>...<h6> 
+            4) <p>
         and collect data in dictionary
     """
     soups = []
